@@ -38,6 +38,6 @@ expo.errorLogger = function(err, req, res, next) {
   console.log("    ", req.method, req.url, "HTTP/"+ver, "-", res.statusCode);
   console.log("    ", "Remote-IP:", addr);
   console.log("    ", "Date:", (new Date()).toUTCString());
-  console.error(" ", err.stack);
+  console.error(err.stack);
   next(err);
 };
