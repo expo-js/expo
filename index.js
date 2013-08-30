@@ -26,7 +26,7 @@ expo.errorHandler = function(handler) {
  */
 
 expo.errorLogger = function(err, req, res, next) {
-  if (err === 404) next(err);
+  if (err === 404) return next(err);
 
   var addr = req.socket && (req.socket.remoteAddress || (req.socket.socket && req.socket.socket.remoteAddress));
   var ver  = req.httpVersionMajor + '.' + req.httpVersionMinor;
@@ -36,6 +36,6 @@ expo.errorLogger = function(err, req, res, next) {
   console.log("    ", req.method, req.url, "HTTP/"+ver, "-", res.statusCode);
   console.log("    ", "Remote-IP:", addr);
   console.log("    ", "Date:", (new Date()).toUTCString());
-  console.error(err.stack);
+  console.error(" ", err.stack);
   next(err);
 };
