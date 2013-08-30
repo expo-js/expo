@@ -407,5 +407,5 @@ block body
 [app.locals]: http://expappsjs.com/api.html#app.locals
 [app.all()]: http://expressjs.com/api.html#app.all
 [app.VERB]: http://expressjs.com/api.html#app.VERB
-[Expo]: http://ricostacruz.com/expo/
+[Expo]: http://expo-js.github.io/
 [Rails layouts]: http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts

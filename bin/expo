@@ -27,7 +27,7 @@ cli
     console.log('    $ expo myproject');
     console.log('');
     console.log("  see Expo's website for more info.");
-    console.log('  http://ricostacruz.com/expo/');
+    console.log('  http://expo-js.github.io/');
   });
   cli.parse(process.argv);
 
