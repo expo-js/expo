@@ -10,6 +10,9 @@ module.exports = function(app) {
     app.use(express.favicon());
     app.use(express.logger('dev'));
   });
+  app.configure('production', function() {
+    app.set('log errors', true);
+  });
   app.use(express['static'](app.path('public')));
   app.use(express.cookieParser(token));
   app.use(express.bodyParser());
