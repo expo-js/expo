@@ -32,7 +32,7 @@ $ expo --help
    * Logging
    * Config file loading
 
-[![Status](https://travis-ci.org/rstacruz/expo.png?branch=master)](https://travis-ci.org/rstacruz/expo)  [![NPM version](https://badge.fury.io/js/expo.png)](http://badge.fury.io/js/expo)
+[![Status](https://travis-ci.org/expo-js/expo.png?branch=master)](https://travis-ci.org/expo-js/expo)  [![NPM version](https://badge.fury.io/js/expo.png)](http://badge.fury.io/js/expo)
 
 ## Your first app
 
@@ -346,17 +346,15 @@ Acknowledgements
 [Image] was taken from Flickr, licensed under Creative Commons.
 
 **Expo** is authored and maintained by [Rico Sta. Cruz] with help
-from its [contributors]. It is sponsored by my startup, [Nadarei, Inc.]
+from its [contributors].
 
  * [My website](http://ricostacruz.com) (ricostacruz.com)
- * [Nadarei, Inc.] (nadarei.co)
  * [Github](http://github.com/rstacruz) (@rstacruz)
  * [Twitter](http://twitter.com/rstacruz) (@rstacruz)
 
 [MIT License]: http://www.opensource.org/licenses/mit-license.php
 [Rico Sta. Cruz]: http://ricostacruz.com
 [contributors]: http://github.com/rstacruz/expo/contributors
-[Nadarei, Inc]: http://nadarei.co
 
 [connect-assets]: https://github.com/adunkman/connect-assets
 [Express]: http://expressjs.com/
