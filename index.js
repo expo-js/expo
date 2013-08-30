@@ -35,9 +35,10 @@ expo.errorLogger = function(err, req, res, next) {
 
   console.error("");
   console.error("ERROR:");
-  console.log("    ", req.method, req.url, "HTTP/"+ver, "-", res.statusCode);
-  console.log("    ", "Remote-IP:", addr);
-  console.log("    ", "Date:", (new Date()).toUTCString());
-  console.error(err.stack);
+  console.error("    ", req.method, req.url, "HTTP/"+ver, "-", res.statusCode);
+  console.error("    ", "Remote-IP:", addr);
+  console.error("    ", "Date:", (new Date()).toUTCString());
+
+  // Make connect show the errors
   next(err);
 };
