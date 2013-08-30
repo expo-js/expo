@@ -1,4 +1,6 @@
 var expo = module.exports = function(app, dir) {
+  // Use coffeescript right away to allow .coffee files
+  require('coffee-script');
   // Use source maps
   require('source-map-support').install();
 
